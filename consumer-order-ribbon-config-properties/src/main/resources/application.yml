@@ -1,0 +1,20 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consumer-order-ribbon-config-properties
+user:
+  url: http://localhost:7900/user/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true #在EUREKA 中显示ip
+
+PROVIDER-USER1: #写服务的名字
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #给指定的服务配置负载均衡算法
+#ribbon:
+#  eureka:
+#    enabled: false #在 Eureka 中禁用ribbon，禁用后需要自己负责负载均衡

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway-zuul-reg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigetway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-rorder-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-turbine2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-turbine3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-turbine4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-custom-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-fallbackfactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix-turbine2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-ribbon-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-ribbon-config-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/node-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sidecar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-client-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-client-eureka-refresh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-client-eureka-refresh-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-server-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-server-auth-eureka" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

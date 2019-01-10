@@ -1,0 +1,11 @@
+server:
+  port: 7900 #程序启动后的端口,也就是tomcat的端口
+spring:
+  application:
+    name: provider-user #应用程序，别名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:10000/eureka/
+  instance:
+    prefer-ip-address: true

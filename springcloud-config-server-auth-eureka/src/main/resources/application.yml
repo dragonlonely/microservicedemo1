@@ -1,0 +1,24 @@
+server:
+  port: 12900 #程序啟動后的端口,也就是 tomcat 的端口,我們可以自己定义
+spring:  #配置配置文件的仓库地址
+  application:
+    name: springcloud-config-server-auth-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/jackdragon/spring-cloud-config
+          search-paths:
+          - abc #以 abc 开头的会被转到 abc 目录
+          - def
+          clone-on-start: true  #启动就加载文件
+security:
+  basic:
+    enabled: true #开启认证
+  user:
+    name: user
+    password: 123
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:10000/eureka

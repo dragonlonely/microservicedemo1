@@ -1,0 +1,15 @@
+server:
+  port: 10900
+spring:
+  application:
+    name: apigetway-zuul-reg
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true  #显示ip
+security:    #配置访问 zuul 的 routes 的时候使用
+  user:
+    name: user
+    password: abc

@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:12900 #配置 configserver 的地址 ,配置 server 相关的信息必须放到 bootstrap.yml 中
+      profile: dev
+      label: master #当使用 git 的时候 lable 默认是 master
+      discovery: #发现相关的配置
+        enabled: true
+        service-id: springcloud-config-server-auth-eureka #configserver注册到 eureka 的 id
+      username: user #如果 configserver 需要用户名和密码需要在这里设置
+      password: 123
+  application:
+    name: foobaf #代表要找 name+profile 对应的文件 会找 foorbar 开头的叫 dev 的文件
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+security:
+  user:
+    name: user
+    password: 123

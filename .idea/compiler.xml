@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apigateway-zuul-fallback" />
+        <module name="apigateway-zuul-filter" />
+        <module name="apigateway-zuul-reg" />
+        <module name="apigetway-zuul" />
+        <module name="consume-rorder-hystrix" />
+        <module name="consumer-hystrix-turbine" />
+        <module name="consumer-hystrix-turbine2" />
+        <module name="consumer-hystrix-turbine3" />
+        <module name="consumer-hystrix-turbine4" />
+        <module name="consumer-order" />
+        <module name="consumer-order-custom-feign" />
+        <module name="consumer-order-feign" />
+        <module name="consumer-order-feign-fallbackfactory" />
+        <module name="consumer-order-feign-hystrix" />
+        <module name="consumer-order-feign-hystrix-turbine" />
+        <module name="consumer-order-feign-hystrix-turbine2" />
+        <module name="consumer-order-ribbon" />
+        <module name="consumer-order-ribbon-config" />
+        <module name="consumer-order-ribbon-config-properties" />
+        <module name="eureka" />
+        <module name="eureka-ha" />
+        <module name="file-upload" />
+        <module name="hystrix-dashboard" />
+        <module name="node-service" />
+        <module name="provider-user" />
+        <module name="sidecar" />
+        <module name="springcloud-config-client" />
+        <module name="springcloud-config-client-eureka" />
+        <module name="springcloud-config-client-eureka-refresh" />
+        <module name="springcloud-config-client-eureka-refresh-bus" />
+        <module name="springcloud-config-server" />
+        <module name="springcloud-config-server-auth" />
+        <module name="springcloud-config-server-auth-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-hystrix-curbine" target="1.8" />
+      <module name="consumer-order (1)" target="1.8" />
+      <module name="consumer-order-feign (1)" target="1.8" />
+      <module name="consumer-order-feign-custom" target="1.8" />
+      <module name="consumerorder" target="1.8" />
+      <module name="provideruser" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

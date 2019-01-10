@@ -1,0 +1,14 @@
+server:
+  port: 12900
+spring: #配置文件的仓库地址
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/jackdragon/spring-cloud-config #默认配置
+          search-paths:
+            - abc #以abc 开头的 会转到abc目录
+            - def
+          clone-on-start: true #启动就加载文件
+encrypt: #spring cloud 会自动帮忙解密
+  key: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ' #在 yml 文件中外侧需要''包裹,如果是 properties 文件则没有''

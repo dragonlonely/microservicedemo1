@@ -1,0 +1,16 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consumer-order-custom-feign
+user:
+  url: http://localhost:7900/user/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+logging:
+  level:
+    com.dragon.springcloud.feign.FeignClientInter02: debug #给指定的 feign 设置日志输出级别，只有在 debug 的情况下才会打印日志

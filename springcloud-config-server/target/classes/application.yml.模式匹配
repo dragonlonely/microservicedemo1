@@ -1,0 +1,14 @@
+server:
+  port: 12900
+spring: #配置文件的仓库地址
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/jackdragon/spring-cloud-config #默认配置
+          repos:
+            simple:
+              uri: https://gitee.com/jackdragon/simple #当访问的是 simple 的时候执行
+            special: #当访问的是 special 并且符合以下规则的时候请求 uri
+              pattern: special*/dev*,special*/test*
+              uri: https://gitee.com/jackdragon/special
